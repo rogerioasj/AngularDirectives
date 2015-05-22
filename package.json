@@ -1,0 +1,13 @@
+{
+  "name": "directives",
+  "scripts": {
+    "start": "node src/index.html"
+  },
+  "dependencies": {
+    "angular": "~1.3"
+  },
+  "repository" : { 
+     "type" : "git", 
+     "url" : "https://github.com/rogerioasj/AngularDirectives.git"
+  }
+}
