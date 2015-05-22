@@ -8,11 +8,13 @@
 
   </style>
 </head>
-<body ng-app="directives">
+<body ng-app="directives" ng-controller="AppController as vm">
+  <magic-ball></magic-ball>
   <magic-ball></magic-ball>
 
   <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
   <script type="text/javascript" src="app/app.module.js"></script>
+  <script type="text/javascript" src="app/app.controller.js"></script>
   <script type="text/javascript" src="app/components/magicball/magicball.directive.js"></script>
 </body>
 </html>
